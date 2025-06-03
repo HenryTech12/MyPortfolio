@@ -85,24 +85,34 @@ body {
 .content .logo {
    display: inline-block;
    gap: 0.3rem;
-   width: fit-content;
    border: 1px solid lightgray;
    align-items: center;
    margin: .7rem 1rem;
    color: white;
-   
+   width: fit-content;
    padding: 1rem;
    font-family: 'Dancing Script';
    border-radius: 10px;
+   width: 30%;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 .content .logo > img {
-    width: 15%;
+    width: 100%;
     height: auto;
+    display: block;
     margin: 0 auto;
 }
 .content .logo span:last-child {
     display: block;
     color: lightgray;
+    font-size: 1.2rem;
+    font-weight: bolder;
 }
 .content .logo > div {
     display: flex;
@@ -355,5 +365,11 @@ a {
     }
     to {
         transform: scale(0.9);
+    }
+}
+
+@media only screen and(max-width: 768px) {
+    .content .logo  {
+        width: 40%;
     }
 }

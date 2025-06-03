@@ -1,6 +1,5 @@
 console.log('Hello World!');
 
-
 let form = document.getElementById("form");
 form.addEventListener('submit', (e) => {
      
@@ -28,9 +27,8 @@ menu.addEventListener('click',() => {
 
 
   const lines = [
-    "Backend developer specializing in Java, Spring Boot, Hibernate, and J2EE.",
-    "I build scalable RESTful APIs with robust exception handling, input validation, and efficient database interaction using MySQL.",
-    "Passionate about clean code, API design, and delivering high-performance backend systems."
+    "Hi, I'm Fakorode Odunayo Henry, a passionate Backend Java Developer with focus on building scalable, high-performance systems using Java, Spring Boot, and RESTful APIs",
+    "I enjoy solving real-world problems with clean, efficient code and designing systems that are both secure and maintainable."
   ];
 
   let lineIndex = 0;
