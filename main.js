@@ -8,7 +8,7 @@ form.addEventListener('submit', (e) => {
         alert("Form Successfully Submitted");
         form.submit();
 
-}
+});
 
 let menu = document.getElementById('menu');
 let menuIcon = document.querySelector('.menu-icon');
