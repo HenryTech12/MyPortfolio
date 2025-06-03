@@ -1,6 +1,15 @@
 console.log('Hello World!');
 
 
+let form = document.getElementById("form");
+form.addEventListener('submit', (e) => {
+     
+        e.preventDefault();
+        alert("Form Successfully Submitted");
+        form.submit();
+
+}
+
 let menu = document.getElementById('menu');
 let menuIcon = document.querySelector('.menu-icon');
 let i = 0;
