@@ -83,13 +83,14 @@ body {
 }
 /* || LOGO */
 .content .logo {
-   display: flex;
+   display: inline-block;
    gap: 0.3rem;
    width: fit-content;
    border: 1px solid lightgray;
    align-items: center;
    margin: .7rem 1rem;
    color: white;
+   
    padding: 1rem;
    font-family: 'Dancing Script';
    border-radius: 10px;
